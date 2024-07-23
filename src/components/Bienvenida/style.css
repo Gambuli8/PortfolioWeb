@@ -1,0 +1,182 @@
+.bienvenida{
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.image{
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.div-img{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  margin-left: 150px;
+}
+
+.inicio{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: 100px;
+}
+
+.hola{
+  display: flex;
+  align-items: start;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  opacity: 50%;
+  margin: 0;
+  width: 50px;
+  border-bottom: 2px solid #646cff;
+}
+
+.pa{
+  font-size: 20px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerSobremi{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 40px;
+
+}
+
+.title-Sobremi{
+  margin-left: 100px;
+  font-family: 'Quicksand', sans-serif;
+  color: #ffda9e;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.parrafoSobremi{
+  font-size: 19px;
+  padding-left: 100px;
+  font-family: 'Quicksand', sans-serif;
+  max-width: 600px;
+}
+
+.redes{
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  text-align: center;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 10px;
+  z-index: 30;
+}
+
+.redes a{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  margin: 0px;
+  margin-right: 5px;
+  transition: all .5s;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  font-size: 25px;
+}
+
+.redes a i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.redes .in:hover{
+  background-color: #0A63BC;
+  border: 1px solid #0A63BC;
+}
+
+.redes .git:hover{
+  background-color: black;
+  border: 1px solid black;
+}
+
+.redes .mail:hover{
+  background-color: #BF211E;
+  border: 1px solid #BF211E;
+  cursor: pointer;
+}
+
+.redes .tw:hover{
+  background-color: #1C96E8;
+  border: 1px solid #1C96E8;
+}
+
+.containerCV{
+  display:flex;
+  justify-content :center;
+  align-items: center;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: -35px;
+  width: 170px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #646cff;
+  z-index: 30;
+}
+
+.spanContact{
+  border-bottom: 2px solid #646cff;
+}
+
+.cv{
+  display:flex;
+  justify-content :center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 17px;
+  color: black;
+  font-weight: lighter;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.cv i{
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.cv:hover{
+  color: white;
+}
