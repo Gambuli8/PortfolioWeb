@@ -117,7 +117,7 @@ function SobreMi() {
         </div>
         <picture className='div-img'>
           <img
-            src='/src/assets/img/foto.png'
+            src='https://res.cloudinary.com/ds7hhoq17/image/upload/v1721746561/portfolioweb/foto_jluyay.png'
             className='image'
             alt=''
           />
